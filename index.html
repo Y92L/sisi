@@ -1,46 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GITHUB</title>
+    <style>
+        body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+       text-align: center;
+      }
+      h1 {
+        color: #333;
+        font-size: 2.5em;
+      }
+      h2 {
+        color: #555;
+        font-size: 1.8em;
+      }
+      p {
+        color: #666;
+        font-size: 1.2em;
+        line-height: 1.6;
+      }
+      ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      ul li {
+        margin-bottom: 15px;
+        text-align: left;
+        background-color: #f7f7f7;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      h3 {
+        color: #777;
+      }
+      a {
+        color: #007bff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+      a:hover {
+        color: #0056b3;
+      }
+      .container{
+        padding: 80px;
+      }
+    </style>
 </head>
+
 <body>
     <h1>GITHUB</h1>
     <h2>Primeros pasos</h2>
     <p>Estoy iniciando un desarrollo de una app y ¿? eureka</p>
     <p>porque no mejor la conecto (subo) a la GITHUB</p>
     <ul>
-        <li>Vers status</li>
+        <li>Ver status</li>
         <ul>
-            <li>Ver si ya estamos conectados a una rama</li>
+            <li>git status</li>
         </ul>
+        <li>Ver si ya estamos conectados a una rama</li>
         <ul>
-            <li>git remote</li>
+            <li>git remote -v</li>
         </ul>
+        <li>INICIAMOS GIT</li>
         <ul>
-            <li>iniciamos GIT</li>
+            <li>git init</li>
         </ul>
+
+        <li>VAMOS a GITHUB (arriba) y creamos un nuevo Repo de nombre SISI</li>
         <ul>
-            <li>git INIT</li>
+            <li>crear nuevo repositorio</li>
+            <li>agregar nombre SISI</li>
+            <li>tocar el botón crear</li>
         </ul>
+        <li>Conecxión remote add</li>
         <ul>
-            <li>Vamos a GITHUB (arriba) y creamos un nuevo repo de nombre sisi</li>
-        </ul>
-        <ul>
-            <li>crear nuevo repositorio </li>
-            <li>agregar nueva sisi</li>
-            <li>tocar el boton crear</li>
-        </ul>
-        <ul>
-            <li>Conexion remote add</li>
-        </ul>
-        <ul>
-            <li>copiamos el comando : git romete add origin git remote add origin https://github.com/Y92L/sisi.git</li>
+            <li>Copiamos el comando: git remote add origin https://github.com/HX-MLuquez/SISI.git</li>
             <li>lo pegamos en nuestra consola y damos ENTER</li>
+        </ul>
+        <li>Renombre a rama MASTER -> MAIN</li>
+        <ul>
+            <li>Copiamos el comando: git branch -M main</li>
+            <li>lo pegamos en nuestra consola y damos ENTER</li>
+        </ul>
+        <li>ADD - ARMAR el commit (la caja a salvar). Nuestra versión (nuestro back)</li>
+        <ul>
+            <li>git add .</li>
+        </ul>
+        <li>COMMIT - Poner nombre a la caja y git lo identifica con un hash</li>
+        <ul>
+            <li>git commit -m "iniciando nuestro primer subida de un repo a GITHUB"</li>
+        </ul>
+        <li>PUSH - subir, empujar lo guardado hacia arriba, pero este push por primera y única vez es un push especial
+        </li>
+        <ul>
+            <li>git push -u origin main</li>
+            <li>para futuros push solo se debe hacer: git push</li>
         </ul>
     </ul>
 
 
 </body>
+
 </html>
